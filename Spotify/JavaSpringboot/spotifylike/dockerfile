@@ -1,0 +1,5 @@
+FROM openjdk:21-oracle
+EXPOSE 80
+COPY target/spotifylike-1.0.0.jar spotifylike-1.0.0.jar
+ENTRYPOINT ["java", "-jar", "./spotifylike-1.0.0.jar", "--server.port=80"]
+

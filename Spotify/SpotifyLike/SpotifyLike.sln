@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyLike.Domain", "SpotifyLike.Domain\SpotifyLike.Domain.csproj", "{461E19D0-76EF-49BF-8F32-9CE37BB1EE24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyLike.Repository", "SpotifyLike.Repository\SpotifyLike.Repository.csproj", "{567EE08F-6A29-4877-A8A1-CEBC67535E93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyLike.Application", "SpotifyLike.Application\SpotifyLike.Application.csproj", "{0F65AD38-A827-459C-910E-41D87058F465}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyLike.API", "SpotifyLike.API\SpotifyLike.API.csproj", "{CE6DE18D-A403-4A9F-9EA4-7FB8731CEDD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyLike.Notification", "SpotifyLike.Notification\SpotifyLike.Notification.csproj", "{E3962F30-62B9-47BE-A294-B814D847FA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyLike.Tests", "SpotifyLike.Tests\SpotifyLike.Tests.csproj", "{82FC5D2E-3DDD-475F-AB4A-62036DDA7249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461E19D0-76EF-49BF-8F32-9CE37BB1EE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461E19D0-76EF-49BF-8F32-9CE37BB1EE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461E19D0-76EF-49BF-8F32-9CE37BB1EE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461E19D0-76EF-49BF-8F32-9CE37BB1EE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567EE08F-6A29-4877-A8A1-CEBC67535E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567EE08F-6A29-4877-A8A1-CEBC67535E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567EE08F-6A29-4877-A8A1-CEBC67535E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567EE08F-6A29-4877-A8A1-CEBC67535E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F65AD38-A827-459C-910E-41D87058F465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F65AD38-A827-459C-910E-41D87058F465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F65AD38-A827-459C-910E-41D87058F465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F65AD38-A827-459C-910E-41D87058F465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6DE18D-A403-4A9F-9EA4-7FB8731CEDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6DE18D-A403-4A9F-9EA4-7FB8731CEDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6DE18D-A403-4A9F-9EA4-7FB8731CEDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6DE18D-A403-4A9F-9EA4-7FB8731CEDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3962F30-62B9-47BE-A294-B814D847FA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3962F30-62B9-47BE-A294-B814D847FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3962F30-62B9-47BE-A294-B814D847FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3962F30-62B9-47BE-A294-B814D847FA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FC5D2E-3DDD-475F-AB4A-62036DDA7249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FC5D2E-3DDD-475F-AB4A-62036DDA7249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FC5D2E-3DDD-475F-AB4A-62036DDA7249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FC5D2E-3DDD-475F-AB4A-62036DDA7249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE9E1F4D-C983-40C1-9DA5-3E570186A75A}
+	EndGlobalSection
+EndGlobal
